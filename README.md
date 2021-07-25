@@ -23,3 +23,12 @@
 ###### We have successfully installed our CLI package, Now we should see this help message if we follow this command from this picture
 
 ![Optional Text](../main/image/home.png)
+
+###### Run this command to create CSV file in term of input
+
+![Optional Text](../main/image/command.png)
+
+###### Finally we can see our result.csv file to the root directory
+
+![Optional Text](../main/image/root.png)
+
