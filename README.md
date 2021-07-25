@@ -8,13 +8,15 @@
 
 
 ```diff
-- once packages is done to install, then need to follow those steps to properly install our CLI package :
++ once packages is done to install, then need to follow those steps to properly install our CLI package :
 ```
 > *Active Virtual Evironment*
-/
+\
+&nbsp;
 > *python3 setup.py develop*
-/
-> *iprice ```diff --s="Your String" ```*
+\
+&nbsp;
+> *iprice --s="Your String"*
 
 
 
