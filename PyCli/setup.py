@@ -6,8 +6,8 @@ import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(__file__)) # This is Base Directory
 
-def read_text(folder_name: str , file_name: str) -> str:
-    return open(os.path.join(BASE_DIR, f'{folder_name}/{file_name}')).read()
+def read_text(file_name: str) -> str:
+    return open(os.path.join(BASE_DIR, f'{file_name}')).read()
 
 
 with open("README.md", "r", encoding="utf-8") as readme:
@@ -21,7 +21,7 @@ setup(
     version = '0.0.1',
     author = 'Ali Mohammad Tarif',
     author_email = 'tohin.tarif@gmail.com',
-    license = read_text('PyCli','LICENSE'),
+    license = read_text('LICENSE'),
     description = 'Generate Stdout and Save it to excel file',
     long_description = long_description,
     long_description_content_type = "text/markdown",
@@ -36,6 +36,6 @@ setup(
     ],
     entry_points = '''
         [console_scripts]
-        iprice = app/__main__:main
+        iprice = __main__:main
     '''
 )
