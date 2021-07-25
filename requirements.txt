@@ -5,7 +5,8 @@
 #    pipenv lock --requirements
 #
 
-# -i https://pypi.org/simple
+-i https://pypi.org/simple
 click==8.0.1
 pyfiglet==0.8.post1
+termcolor==1.1.0
 wheel==0.36.2
