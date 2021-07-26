@@ -1,3 +1,5 @@
+# Active Virtual Evironment
+
 ## Install all required packages using pipenv or pip
 > *pipenv install -r requirements.txt*
 
@@ -10,7 +12,7 @@
 ```diff
 + once packages is done to install, then need to follow those steps to properly install our CLI package :
 ```
-> *Active Virtual Evironment*
+
 \
 &nbsp;
 > *python3 setup.py develop*
